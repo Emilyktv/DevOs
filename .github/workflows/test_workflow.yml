@@ -2,7 +2,7 @@ name: "😀test_workflow"
 on: 
   pull_request:
   push:
-  schedulle:
+  schedule:
     - cron: '0 0 * * 5'
 jobs:
   buid-job:
